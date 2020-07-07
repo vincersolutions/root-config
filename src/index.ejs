@@ -13,24 +13,6 @@
   <script src="https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.5/runtime.min.js"></script>
   <meta name="importmap-type" content="systemjs-importmap" />
 
-  <!-- Shared dependencies go into this import map. Your shared dependencies must be of one of the following formats:
-
-    1. System.register (preferred when possible) - https://github.com/systemjs/systemjs/blob/master/docs/system-register.md
-    2. UMD - https://github.com/umdjs/umd
-    3. Global variable
-
-    More information about shared dependencies can be found at https://single-spa.js.org/docs/recommended-setup#sharing-with-import-maps.
-  -->
-  <script type="systemjs-importmap">
-    {
-      "imports": {
-        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.5.4/lib/system/single-spa.min.js",
-        "vue": "https://unpkg.com/vue@2.6.11/dist/vue.min.js",
-        "vue-router": "https://unpkg.com/vue-router@3.3.4/dist/vue-router.min.js"
-      }
-    }
-  </script>
-
   <!-- Add your organization's prod import map URL to this script's src  -->
   <script type="systemjs-importmap" src="https://fc.microfrontends.app/fitch.importmap"></script>
 
